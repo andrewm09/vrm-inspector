@@ -1,42 +1,28 @@
-# sv
+# VRM Structural Inspector
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A high-performance, web-based structural inspector for VRM and GLTF files. Built with **Svelte 5** and **Three.js**.
 
-## Creating a project
+## ✨ Key Features
+- **Local Processing:** Your models never leave your machine. All parsing happens in-browser.
+- **SpringBone Physics:** Real-time simulation of VRM physics (hair, clothing, etc.).
+- **Structural Hierarchy:** Deep inspection of bone structures with recursive tree views.
+- **Smart Search:** Token-based autocomplete to find specific bones or meshes instantly.
+- **Wireframe & Skeleton:** Toggle visual debugging layers with one click.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🚀 Tech Stack
+- [Svelte 5](https://svelte.dev/) (Runes, Snippets)
+- [Three.js](https://threejs.org/)
+- [@pixiv/three-vrm](https://github.com/vrm-c/three-vrm)
+- Lucide Svelte (Icons)
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## 🛠️ Installation & Setup
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run dev server: `npm run dev`
+4. Build for production: `npm run build`
 
-To recreate this project with the same configuration:
+## ⚖️ License
+Distributed under the MIT License. See `LICENSE` for more information.
 
-```sh
-# recreate this project
-npx sv@0.12.7 create --template minimal --types ts --add prettier --install npm inspector
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+---
+Built by [Andres Martin](https://andrewm09.github.io)

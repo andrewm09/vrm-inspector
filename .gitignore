@@ -1,0 +1,14 @@
+# Dependencias
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# SvelteKit temporales y salidas de compilación
+.svelte-kit/
+build/
+
+# Entorno y sistema operativo
+.env
+.env.*
+.DS_Store
+Thumbs.db
